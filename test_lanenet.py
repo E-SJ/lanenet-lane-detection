@@ -16,6 +16,7 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
+from PIL import Image
 
 from lanenet_model import lanenet
 from lanenet_model import lanenet_postprocess
@@ -128,20 +129,26 @@ def test_lanenet(image_path, weights_path):
             source_image=image_vis
         )
         mask_image = postprocess_result['mask_image']
+        Image.fromarray(mask_image).save("./filename.jpeg")
+
 
         for i in range(CFG.MODEL.EMBEDDING_FEATS_DIMS):
             instance_seg_image[0][:, :, i] = minmax_scale(instance_seg_image[0][:, :, i])
         embedding_image = np.array(instance_seg_image[0], np.uint8)
 
-        plt.figure('mask_image')
-        plt.imshow(mask_image[:, :, (2, 1, 0)])
-        plt.figure('src_image')
-        plt.imshow(image_vis[:, :, (2, 1, 0)])
-        plt.figure('instance_image')
-        plt.imshow(embedding_image[:, :, (2, 1, 0)])
-        plt.figure('binary_image')
-        plt.imshow(binary_seg_image[0] * 255, cmap='gray')
-        plt.show()
+        #plt.figure('mask_image')
+        #plt.imshow(mask_image[:, :, (2, 1, 0)])
+        #plt.imshow(mask_image[:, :])
+        #plt.axis('off')
+        #plt.savefig('./output.png', bbox_inches='tight',pad_inches = 0)
+        #plt.savefig('./test.png')
+        #plt.figure('src_image')
+        #plt.imshow(image_vis[:, :, (2, 1, 0)])
+        #plt.figure('instance_image')
+        #plt.imshow(embedding_image[:, :, (2, 1, 0)])
+        #plt.figure('binary_image')
+        #plt.imshow(binary_seg_image[0] * 255, cmap='gray')
+        #plt.show()
 
     sess.close()
 
