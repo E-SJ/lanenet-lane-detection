@@ -1,0 +1,1 @@
+python3 test_lanenet.py --weights_path ./model/tusimple_lanenet.ckpt --image_path 2.jpg

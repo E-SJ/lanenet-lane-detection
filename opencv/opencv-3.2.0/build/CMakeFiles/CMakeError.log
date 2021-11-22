@@ -1,0 +1,472 @@
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b352/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9b352.dir/build.make CMakeFiles/cmTC_9b352.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_9b352.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTC_9b352.dir/src.cxx.o -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_9b352
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b352.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_9b352.dir/src.cxx.o  -o cmTC_9b352 -rdynamic 
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1fd14/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1fd14.dir/build.make CMakeFiles/cmTC_1fd14.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_1fd14.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTC_1fd14.dir/src.cxx.o -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_1fd14
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fd14.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_1fd14.dir/src.cxx.o  -o cmTC_1fd14 -rdynamic 
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1be59/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1be59.dir/build.make CMakeFiles/cmTC_1be59.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_1be59.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_1be59.dir/src.c.o   -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_1be59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1be59.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_1be59.dir/src.c.o  -o cmTC_1be59 -rdynamic 
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7849c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7849c.dir/build.make CMakeFiles/cmTC_7849c.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_7849c.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_7849c.dir/src.c.o   -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_7849c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7849c.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_7849c.dir/src.c.o  -o cmTC_7849c -rdynamic 
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d64e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d64e3.dir/build.make CMakeFiles/cmTC_d64e3.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_d64e3.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_d64e3.dir/src.cxx.o -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_d64e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d64e3.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_d64e3.dir/src.cxx.o  -o cmTC_d64e3 -rdynamic 
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46d56/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46d56.dir/build.make CMakeFiles/cmTC_46d56.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_46d56.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_46d56.dir/src.c.o   -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.c
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_46d56
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46d56.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_46d56.dir/src.c.o  -o cmTC_46d56 -rdynamic 
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c51a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c51a0.dir/build.make CMakeFiles/cmTC_c51a0.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_c51a0.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_c51a0.dir/src.c.o   -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_c51a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c51a0.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_c51a0.dir/src.c.o  -o cmTC_c51a0 -rdynamic 
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea3cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea3cd.dir/build.make CMakeFiles/cmTC_ea3cd.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_ea3cd.dir/TestEndianess.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_ea3cd.dir/TestEndianess.c.o   -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_ea3cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea3cd.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTC_ea3cd.dir/TestEndianess.c.o  -o cmTC_ea3cd -rdynamic 
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-misleading-indentation’'
+Compilation failed:
+    source file: '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1759d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1759d.dir/build.make CMakeFiles/cmTC_1759d.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_1759d.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG   -Wno-misleading-indentation -o CMakeFiles/cmTC_1759d.dir/src.cxx.o -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-misleading-indentation’
+Linking CXX executable cmTC_1759d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1759d.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG    CMakeFiles/cmTC_1759d.dir/src.cxx.o  -o cmTC_1759d -rdynamic 
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b516b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b516b.dir/build.make CMakeFiles/cmTC_b516b.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_b516b.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_b516b.dir/CheckSymbolExists.cxx.o -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_b516b.dir/build.make:65: 'CMakeFiles/cmTC_b516b.dir/CheckSymbolExists.cxx.o' 타겟에 대한 명령이 실패했습니다
+make[1]: *** [CMakeFiles/cmTC_b516b.dir/CheckSymbolExists.cxx.o] 오류 1
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+Makefile:126: 'cmTC_b516b/fast' 타겟에 대한 명령이 실패했습니다
+make: *** [cmTC_b516b/fast] 오류 2
+
+File /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ab18/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ab18.dir/build.make CMakeFiles/cmTC_1ab18.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_1ab18.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_1ab18.dir/CheckSymbolExists.cxx.o -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_1ab18.dir/build.make:65: 'CMakeFiles/cmTC_1ab18.dir/CheckSymbolExists.cxx.o' 타겟에 대한 명령이 실패했습니다
+make[1]: *** [CMakeFiles/cmTC_1ab18.dir/CheckSymbolExists.cxx.o] 오류 1
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+Makefile:126: 'cmTC_1ab18/fast' 타겟에 대한 명령이 실패했습니다
+make: *** [cmTC_1ab18/fast] 오류 2
+
+File /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_433f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_433f8.dir/build.make CMakeFiles/cmTC_433f8.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_433f8.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_433f8.dir/CheckSymbolExists.cxx.o -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_433f8.dir/build.make:65: 'CMakeFiles/cmTC_433f8.dir/CheckSymbolExists.cxx.o' 타겟에 대한 명령이 실패했습니다
+make[1]: *** [CMakeFiles/cmTC_433f8.dir/CheckSymbolExists.cxx.o] 오류 1
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+Makefile:126: 'cmTC_433f8/fast' 타겟에 대한 명령이 실패했습니다
+make: *** [cmTC_433f8/fast] 오류 2
+
+File /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51812/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51812.dir/build.make CMakeFiles/cmTC_51812.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_51812.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_51812.dir/CheckIncludeFile.c.o   -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: 그런 파일이나 디렉터리가 없습니다
+compilation terminated.
+CMakeFiles/cmTC_51812.dir/build.make:65: 'CMakeFiles/cmTC_51812.dir/CheckIncludeFile.c.o' 타겟에 대한 명령이 실패했습니다
+make[1]: *** [CMakeFiles/cmTC_51812.dir/CheckIncludeFile.c.o] 오류 1
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+Makefile:126: 'cmTC_51812/fast' 타겟에 대한 명령이 실패했습니다
+make: *** [cmTC_51812/fast] 오류 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bca07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bca07.dir/build.make CMakeFiles/cmTC_bca07.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_bca07.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_bca07.dir/CheckIncludeFile.c.o   -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: 그런 파일이나 디렉터리가 없습니다
+compilation terminated.
+CMakeFiles/cmTC_bca07.dir/build.make:65: 'CMakeFiles/cmTC_bca07.dir/CheckIncludeFile.c.o' 타겟에 대한 명령이 실패했습니다
+make[1]: *** [CMakeFiles/cmTC_bca07.dir/CheckIncludeFile.c.o] 오류 1
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+Makefile:126: 'cmTC_bca07/fast' 타겟에 대한 명령이 실패했습니다
+make: *** [cmTC_bca07/fast] 오류 2
+
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d14db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d14db.dir/build.make CMakeFiles/cmTC_d14db.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_d14db.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses -Wno-maybe-uninitialized -Wno-sign-promo -Wno-missing-declarations  -O3 -DNDEBUG   -Wno-missing-prototypes -o CMakeFiles/cmTC_d14db.dir/src.cxx.o -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_d14db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d14db.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses -Wno-maybe-uninitialized -Wno-sign-promo -Wno-missing-declarations  -O3 -DNDEBUG    CMakeFiles/cmTC_d14db.dir/src.cxx.o  -o cmTC_d14db -rdynamic 
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be8bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be8bd.dir/build.make CMakeFiles/cmTC_be8bd.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_be8bd.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses -Wno-maybe-uninitialized -Wno-sign-promo -Wno-missing-declarations -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG   -Wno-tautological-undefined-compare -o CMakeFiles/cmTC_be8bd.dir/src.cxx.o -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_be8bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be8bd.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses -Wno-maybe-uninitialized -Wno-sign-promo -Wno-missing-declarations -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG    CMakeFiles/cmTC_be8bd.dir/src.cxx.o  -o cmTC_be8bd -rdynamic 
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-const-variable’'
+Compilation failed:
+    source file: '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-const-variable'
+===== BUILD LOG =====
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9bf3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9bf3.dir/build.make CMakeFiles/cmTC_d9bf3.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_d9bf3.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses -Wno-maybe-uninitialized -Wno-sign-promo -Wno-missing-declarations -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG   -Wno-unused-const-variable -o CMakeFiles/cmTC_d9bf3.dir/src.cxx.o -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-const-variable’
+Linking CXX executable cmTC_d9bf3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9bf3.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses -Wno-maybe-uninitialized -Wno-sign-promo -Wno-missing-declarations -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG    CMakeFiles/cmTC_d9bf3.dir/src.cxx.o  -o cmTC_d9bf3 -rdynamic 
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’'
+Compilation failed:
+    source file: '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_120fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_120fc.dir/build.make CMakeFiles/cmTC_120fc.dir/build
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_120fc.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -O3 -DNDEBUG   -Wno-unused-private-field -o CMakeFiles/cmTC_120fc.dir/src.cxx.o -c /home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’
+Linking CXX executable cmTC_120fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_120fc.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -O3 -DNDEBUG    CMakeFiles/cmTC_120fc.dir/src.cxx.o  -o cmTC_120fc -rdynamic 
+make[1]: 디렉터리 '/home/linux/lanenet-lane-detection/opencv/opencv-3.2.0/build/CMakeFiles/CMakeTmp' 나감
+
+===== END =====
+
